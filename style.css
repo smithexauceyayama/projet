@@ -1,0 +1,179 @@
+/* initialise les éléménts de la page à 0 au lieu que ça soit par défaut et tous les contenus est en arial */
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* position sticky permet a mon en tête  d'être placé en haut et fixe et les autres éléments de la page passe en dessout */
+.header {
+    background:linear-gradient(to bottom, #000, #0008), url(./img/photocouverture.jpg);
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    position:sticky;
+    top: 0; /*  permet d'occuper l'entierter de la page */
+    left: 0;
+    right: 0;
+    margin-bottom: 20px; /* laisse un espace interieur en bas de l'en tête*/
+}
+/* fais en sorte que dans la page où je me trouve que ça puisse avoir une couleur qui indique la pag active */
+.header-active {
+    background-color: blue;
+    border-radius: 10px;
+}
+/* permet de gere la police et le positionnement, ainsi que la couleur de mon titre */
+.header-titel {
+    background-color: blue;
+    color: #FFF;
+    width: 19%;
+    margin-left:20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+/* permet a ce que mes liens href a puisse être placé à droite de ma page */
+.header-nav {
+    float: right;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-top: -20px;
+    border-radius: 10px;
+}
+/* tous les a  seront esapcer de 10px de gauche et a droite*/
+.header-nav a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-style: normal;
+}
+/* lorsque le curseur survole les a de l'entête */
+.header-nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+body {
+   background-color: lightgray; /* le body aura une autre couleur de fonds */
+}
+.card {
+    background-color: #ffffff94;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 95.4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card a {
+    text-decoration: none;
+}
+.card-header {
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    margin-bottom: -10px;
+}
+.card-titel {
+    margin-top: -50px;
+    font-size: 18px;
+    margin-left: 52px;
+    padding-top: 5px;
+}
+.card-date {
+    font-size: 12px;
+    margin-left: 52px;
+    padding-top: 4px;
+    color: rgba(0,0,0,0.38);
+}
+.card-img {
+    width: 100%;
+}
+.card-body {
+    margin-top: 20px;
+}
+.color-titel {
+    color: blue;
+}
+.color-titel {
+    color: rgb(48, 48, 70);
+}
+.card-body-contenu {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    line-height: 22px;
+    color: #272424;
+    text-align:justify ; /* pour que le text soit bien aligné sans espace irregulier en fin de ligne */
+}
+.card-body-contenu h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.hover :hover {
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.logo {
+    border-radius: 50%;
+}
+.body{
+    background: linear-gradient(to bottom, #000, #0008), url(/img/rueupc.JPG) center/cover;
+    color: #FFF;
+}
+.header-main {
+    display: flex;
+}
+.main-contenue {
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.header-main-titel {
+    padding-bottom: 20px;
+}
+.police-main {
+    
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+    padding-right: 20px;
+}
+.police-main a {
+    text-decoration: none;
+    color: blue;
+}
+.img-main {
+    border-radius: 40%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+/* .main-contenue2 {
+    margin-right: 90px;
+    margin-top: 40px;
+}
+.header-main-titel2 {
+    padding-bottom: 20px;
+    padding-left: 4;
+}
+.police-main2 {
+    
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+    padding-left: 20px;
+}
+.police-main2 a {
+    text-decoration: none;
+    color: blue;
+} */
+.img-main2 {
+    border-radius: 40%;
+    margin-top: 5%;
+    margin-right: 90%;
+}
+footer {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    background-color: #333;
+    clear: both;
+}

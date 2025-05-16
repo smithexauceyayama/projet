@@ -1,0 +1,15 @@
+* {
+    margin:0;
+}
+.navigation {
+    float: right;
+    background-color:aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.navigation a {
+    margin-right: 20px;
+}

@@ -1,4 +1,5 @@
-var class_name = document.getElementsByClassName('js');
-class_name.onclick = function affiche(){
-    alert('vous vous dirigez vers une nouvelle page! cliquez sur ok');
-};
+const bouton = document.getElementById("click");
+const close_menu = document.getElementById("hidemenu");
+bouton.onclick.addEventListener("click",function(){
+    menucache.style.display="none";
+})

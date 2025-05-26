@@ -8,19 +8,16 @@
 </head>
 
 <body>
-    <p> Ceci est un paragraphe HTML</p>
-    <?php
-    echo "Ceci a été ecrit en php <br/>" ;
-    print "Ceci est toujours afficher en php grace à print <br/>";
-    $mavariable = array (
-        array('Exauce', 24, 'exauceyayama@gmail.com'),
-        array('smith', 45, 'smith@gmail.com'),
-        array('yayama', 19,'yayama@gmail.com')
-    );
-    echo 'Nom:'. $mavariable[0][0] .'<br/>' .'Age:'. $mavariable[0][1].'<br/>'.'Mail:'. $mavariable[0][2].'<br/>';
-        echo 'Nom: <br/>'.$mavariable[$i][$i]. 'Age:<br/>'. $mavariable[$i][$j] . 'Mail:<br/>'. $mavariable[$i][2];
-   
-    ?>
+    <form action="php/target.php" method="post">
+        <p>
+            <label for="prenom">Entrez Votre nom:</label>
+            <input type="text" name="prenom" id="prenom">
+        </p>
+        <p>
+            <input type="submit" value="envoyez">
+        </p>
+        
+    </form>
 </body>
 
 </html>

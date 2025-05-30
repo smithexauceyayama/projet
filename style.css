@@ -146,6 +146,7 @@ body {
     line-height: 22px;
     text-align: justify;
     padding-right: 20px;
+    margin-top: -10px;
 }
 .police-main a {
     text-decoration: none;

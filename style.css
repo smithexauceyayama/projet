@@ -57,13 +57,16 @@
     background-color: rgb(255, 255, 255, 0.2);
     border-radius: 10px;
 }
+/* permet de cacher le menu et de l'afficher lorsque je clique sur le bouton menu */
 .div-menu {
     display: none;
 }
+
 body {
    background-color: lightgray; /* le body aura une autre couleur de fonds */
    overflow-x: hidden;/* cacher les éléments qui dépasse en X */
 }
+
 .card {
     background-color: #ffffff94;
     margin-left: 30px;
@@ -132,6 +135,7 @@ body {
 }
 .header-main {
     display: flex;
+    align-items: center;
 }
 .main-contenue {
     margin-left: 90px;
@@ -150,20 +154,35 @@ body {
 }
 .about-titel {
     padding-top: 20px;
-    padding-bottom: 20px;
     margin-left: 4%;
     margin-top: 10px;
+    padding-bottom: 10px;
 }
 .about-police-main {
+    padding-top: -38px;
     font-size: 15px;
     text-align: justify;
     margin-left: 4%;
+    padding-right: 100px;
+    line-height: 22px;
+    
 }
 .police-main a {
     text-decoration: none;
-    color: blue;
-    
+    color: blue;  
 }
+.contenu {
+    display: inline-block; 
+}
+.img-about {
+    max-width: 200px;
+    padding-right: 30px;
+    max-height: 200px;
+    border-radius: 50%;
+    padding-top: 0px;
+   
+}
+
 .img-main {
     border-radius: 40%;
     margin-top: 5%;

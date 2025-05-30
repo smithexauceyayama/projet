@@ -148,9 +148,21 @@ body {
     padding-right: 20px;
     margin-top: -10px;
 }
+.about-titel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 4%;
+    margin-top: 10px;
+}
+.about-police-main {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 4%;
+}
 .police-main a {
     text-decoration: none;
     color: blue;
+    
 }
 .img-main {
     border-radius: 40%;

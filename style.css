@@ -61,12 +61,15 @@
 .div-menu {
     display: none;
 }
-
+/* empeche le defilement a gauche */
+#body-about {
+    background-color: #f0f0f0; /* ajout d'une couleur de fond spécifique pour la page à propos */
+}
 body {
    background-color: lightgray; /* le body aura une autre couleur de fonds */
    overflow-x: hidden;/* cacher les éléments qui dépasse en X */
 }
-
+/* le corps de mes articles */
 .card {
     background-color: #ffffff94;
     margin-left: 30px;
@@ -77,18 +80,21 @@ body {
 .card a {
     text-decoration: none;
 }
+/* l'en-tête de mes articles */
 .card-header {
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
     margin-bottom: -10px;
 }
+/* le titre de mes articles */
 .card-titel {
     margin-top: -50px;
     font-size: 18px;
     margin-left: 52px;
     padding-top: 5px;
 }
+
 .card-date {
     font-size: 12px;
     margin-left: 52px;
@@ -170,9 +176,12 @@ body {
 .police-main a {
     text-decoration: none;
     color: blue;  
+
 }
 .contenu {
-    display: inline-block; 
+    display: flex; 
+    align-items: center;
+    padding-bottom: 40px;
 }
 .img-about {
     max-width: 200px;
@@ -187,6 +196,9 @@ body {
     border-radius: 40%;
     margin-top: 5%;
     margin-left: 15%;
+}
+#body-about {
+    background-color: black;
 }
 /* .main-contenue2 {
     margin-right: 90px;

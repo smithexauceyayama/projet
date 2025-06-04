@@ -19,9 +19,12 @@
     right: 0;
     margin-bottom: 20px; /* laisse un espace interieur en bas de l'en tête*/
 }
-.heademenu {
+#btn-menu {
     display: none;  /* ne s'affiche pas */
     
+}
+#navbar-cache {
+    display: none;
 }
 /* fais en sorte que dans la page où je me trouve que ça puisse avoir une couleur qui indique la pag active */
 .header-active {

@@ -284,4 +284,10 @@ footer {
         width: 55%;
         overflow-y: hidden;
     }
+    .img-main {
+        display: none; /* cacher l'image principale */
+    }
+    .img-about {
+        display: none; /* cacher l'image de la page à propos */
+    }
 }

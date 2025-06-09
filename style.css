@@ -77,8 +77,10 @@ body {
     background-color: #ffffff94;
     margin-left: 30px;
     margin-bottom: 20px;
-    width: 95.4%;
+    max-width: 1200px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    margin-right: 60px;
 }
 .card a {
     text-decoration: none;
@@ -107,7 +109,7 @@ body {
 /* la taille de mes images */
 .card-img {
     width: 100%;
-    height: 650px;
+    height: 700px;
 }
 /* le corps de ma card la ou se trouve les ecrits */
 .card-body {
@@ -257,11 +259,14 @@ footer {
         margin-right: auto;/* centrer les élément au milieu */
     }
     .card {
-        margin-left: auto;/* centrer les élément au milieu */
-        margin-right: auto;/* centrer les élément au milieu */
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .card-body h1 {
         line-height: 30px;  /* espace des lignes du titre */
+    }
+    .card-img {
+        max-height: 450px;
     }
     .div-menu {
         /* ajustement du menu et du menu cacher pour occuper les coins  */

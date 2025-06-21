@@ -233,6 +233,9 @@ footer a {
     color: #66ccff;
 }
 @media (max-width:800px) {
+    *{
+        overflow-x: hidden; /* cacher les éléments qui dépasse en X */
+    }
     .header {
         height: 50px;
     }
@@ -246,7 +249,7 @@ footer a {
         display: none;
     }
     .header-titel {
-        margin-left: 110px;
+        margin-left: 90px;
         font-size: 24px;
         padding-left: 20px;
         width: 200px;

@@ -233,6 +233,9 @@ footer a {
     color: #66ccff;
 }
 @media (max-width:800px) {
+    .header {
+        height: 50px;
+    }
     .header-menu {
         display: flex;
         float: right;

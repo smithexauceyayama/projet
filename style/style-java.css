@@ -3,12 +3,12 @@
         display: block;
         background-color: #1b1818;
         color: white;
-        padding: 1px  3px;
+        padding: 1px  2px;
         border-radius: 10px;
         font-size: 40px;
         cursor: pointer;
         margin-left: 10px;
-        margin-top: 40px;
+        margin-top: -45px;
     }
     #navbar-logo h1 {
         font-size: 30px;

@@ -9,7 +9,7 @@
         cursor: pointer;
     }
     #navbar-logo h1 {
-        font-size: 19px;
+        font-size: 30px;
         padding-left: 30px;
         padding-top: 30px;
         color:cyan;
@@ -25,7 +25,6 @@
         left: 0;
         right: 0;
         bottom:0;
-        color: black;
         background: rgba(8, 27, 41, 0.9);
     }
     #navbar-logo {

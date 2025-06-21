@@ -246,8 +246,10 @@ footer a {
         display: none;
     }
     .header-titel {
-        margin-left: auto;/* centrer les élément au milieu */
-        margin-right: auto;/* centrer les élément au milieu */
+        margin-left: 180px;
+        font-size: 24px;
+        padding-left: 20px;
+        width: 200px;
     }
     .card {
         margin-left: 20px;

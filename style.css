@@ -20,8 +20,7 @@
     margin-bottom: 20px; /* laisse un espace interieur en bas de l'en tête*/
 }
 #btn-menu {
-    display: none;  /* ne s'affiche pas */
-    
+    display: none;  /* ne s'affiche pas */  
 }
 #navbar-cache {
     display: none;
@@ -225,9 +224,13 @@ footer {
     padding-top: 20px;
     margin-top: 20px;
     padding-bottom: 20px;
-    color: #FFF;
+    color: #fff;
     background-color: #333;
     clear: both;
+}
+footer a {
+    text-decoration: none;
+    color: #66ccff;
 }
 @media (max-width:800px) {
     .header-menu {

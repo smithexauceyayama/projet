@@ -144,6 +144,9 @@ body {
 .logo {
     border-radius: 50%;
 }
+
+/* à propos */
+
 /* l'arrière plan de mon apropos */
 .body{
     background: linear-gradient(to bottom, #000, #0008), url(/img/rueupc.JPG) center/cover;
@@ -171,7 +174,8 @@ body {
 }
 .about-titel {
     padding-top: 20px;
-    margin-left: 4%;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 10px;
     padding-bottom: 10px;
 }
@@ -179,7 +183,7 @@ body {
     padding-top: -38px;
     font-size: 15px;
     text-align: justify;
-    margin-left: 4%;
+    margin-left: 20px;
     padding-right: 100px;
     line-height: 22px;
     
@@ -211,25 +215,6 @@ body {
 #body-about {
     background-color: black;
 }
-/* .main-contenue2 {
-    margin-right: 90px;
-    margin-top: 40px;
-}
-.header-main-titel2 {
-    padding-bottom: 20px;
-    padding-left: 4;
-}
-.police-main2 {
-    
-    font-size: 15px;
-    line-height: 22px;
-    text-align: justify;
-    padding-left: 20px;
-}
-.police-main2 a {
-    text-decoration: none;
-    color: blue;
-} */
 .img-main2 {
     border-radius: 40%;
     margin-top: 5%;
@@ -268,27 +253,9 @@ footer {
     .card-img {
         max-height: 450px;
     }
-    .div-menu {
-        /* ajustement du menu et du menu cacher pour occuper les coins  */
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        display: none;
-        
-    }
-    .menu {
-        background-color: red;
-        overflow-y: hidden;
-        width: 45%;
-    }
-    .menu-invisible {
-        background-color: blue;
-        display: block;
-        width: 55%;
-        overflow-y: hidden;
-    }
+
+    /* à propos */
+    
     .img-main {
         display: none; /* cacher l'image principale */
     }

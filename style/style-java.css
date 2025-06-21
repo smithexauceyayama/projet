@@ -9,15 +9,15 @@
         cursor: pointer;
     }
     #navbar-logo h1 {
-        font-size: 16px;
-        padding-left: 10px;
+        font-size: 19px;
+        padding-left: 30px;
         padding-top: 30px;
         color:cyan;
     }
     #navbar-cache {
         display: none;
         flex-direction: row;
-        background-color:#081b29;
+        /* background-color:#081b29; */
         position: fixed;
         align-items: start;
         z-index: 100;
@@ -26,7 +26,7 @@
         right: 0;
         bottom:0;
         color: black;
-        width: 280px;
+        background: rgba(8, 27, 41, 0.9);
     }
     #navbar-logo {
         width: 400px;
@@ -46,10 +46,17 @@
         margin-left: -9px;
     }
     #liens {
-        padding-left: 10px;
+        padding-left: 30px;
         padding-top: 20px;
         line-height: 30px;
         color:#fff ;
+        list-style: none;
+    }
+    #liens li {
+        margin-bottom: 10px;
+    }
+    #liens a:hover {
+        color: red;
     }
     #liens li a {
       color:#fff;

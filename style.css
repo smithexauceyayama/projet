@@ -261,6 +261,9 @@ footer a {
     .card-body h1 {
         line-height: 30px;  /* espace des lignes du titre */
     }
+    .card-header {
+        height: 50px;
+    }
     .card-img {
         max-height: 450px;
     }

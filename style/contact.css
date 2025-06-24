@@ -15,10 +15,12 @@
 #card {
     background-color: #1e293b;
     max-width:1315px ;
-    height: 175px;
     padding-top: 15px;
     margin-bottom: 20px;
     border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #main-contact-header p {
     color: #cbd5e1;
@@ -105,5 +107,13 @@ a:hover {
         flex-direction: column;
         padding-left: 135px;
         padding-right: 135px;
+    }
+}
+@media (max-width:384px) {
+    #display {
+        flex-direction: column;
+        padding-left:90px;
+        padding-right: 90px;
+       
     }
 }

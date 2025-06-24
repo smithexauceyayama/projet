@@ -249,7 +249,7 @@ footer a {
         display: none;
     }
     .header-titel {
-        margin-left: 90px;
+        justify-content: center;
         font-size: 24px;
         padding-left: 20px;
         width: 200px;

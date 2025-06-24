@@ -5,10 +5,11 @@
         color: white;
         padding: 1px  2px;
         border-radius: 10px;
-        font-size: 40px;
+        font-size: 30px;
         cursor: pointer;
-        margin-left: 10px;
-        margin-top: -45px;
+        margin-right: 20px;
+        margin-top: -37px;
+        float: right;
     }
     #navbar-logo h1 {
         font-size: 30px;

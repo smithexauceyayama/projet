@@ -231,6 +231,7 @@ footer {
 footer a {
     text-decoration: none;
     color: #66ccff;
+    line-height: 1.6;
 }
 @media (max-width:800px) {
     *{

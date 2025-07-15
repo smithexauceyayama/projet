@@ -251,9 +251,6 @@ footer a {
     }
 }
 @media (max-width:800px) {
-    *{
-        overflow-x: hidden; /* cacher les éléments qui dépasse en X */
-    }
     .header {
         height: 50px;
     }

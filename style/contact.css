@@ -15,6 +15,8 @@
 #card {
     background-color: #1e293b;
     max-width:1315px ;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 15px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -61,6 +63,8 @@ a:hover {
 #card2 {
     background-color: #1e293b;
     max-width:1315px ;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 15px;
     padding-bottom: 20px;
     margin-bottom: 20px;

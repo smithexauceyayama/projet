@@ -21,7 +21,7 @@ function oui_ou_non(){
 
 var ran = nb_aleatoire(1,100); 
 do {
-    var nb_joueur = prompt("Entrer un nombre entre 1 et 100:");
+    var nb_joueur = parseInt(prompt("Entrer un nombre entre 1 et 100:"));
     if(nb_joueur > ran){
         alert("Votre nombre est supérieur au nombre mystere");
         var rec = oui_ou_non();
